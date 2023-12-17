@@ -7,7 +7,9 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Products />
+      <section>
+        <Products />
+      </section>
     </div>
   );
 };
