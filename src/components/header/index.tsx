@@ -22,9 +22,11 @@ function Header() {
       <Styles.Logo>Redux Shopping</Styles.Logo>
       <Styles.Buttons>
         {currentUser.firstName ? (
-          <div onClick={handleLogin}>Hello {currentUser.firstName}</div>
+          // <div onClick={handleLogin}>Hello {currentUser.firstName}</div>
+          <div> Hello</div>
         ) : (
-          <div onClick={handleLogin}>Login</div>
+          // <div onClick={handleLogin}>Login</div>
+          <div> Hello</div>
         )}
         {cartCount > 0 ? (
           <div onClick={handleCartClick}>Card ({cartCount})</div>
